@@ -1,0 +1,9 @@
+{
+  "region": "eu-west-1",
+  "servers": [
+    { "id": "i-001", "name": "web-prod-01", "estado": "running", "cpu_usage": 45 },
+    { "id": "i-002", "name": "web-prod-02", "estado": "stopped", "cpu_usage": 0 },
+    { "id": "i-003", "name": "db-prod-01", "estado": "running", "cpu_usage": 88 },
+    { "id": "i-004", "name": "cache-01", "estado": "running", "cpu_usage": 12 }
+  ]
+}
