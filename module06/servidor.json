@@ -1,0 +1,10 @@
+{
+  "id": "i-0abc123456789xyz",
+  "estado": "running",
+  "tipo": "t3.medium",
+  "tags": {
+    "Name": "web-production-01",
+    "Environment": "prod"
+  },
+  "ip_publica": "54.210.15.88"
+}
