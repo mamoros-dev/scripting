@@ -1,0 +1,5 @@
+[2026-10-23 10:00:01] [INFO] Servidor iniciado correctamente en puerto 8080
+[2026-10-23 10:05:12] [WARN] Conexión lenta a la base de datos (latencia 450ms)
+[2026-10-23 10:10:33] [ERROR] Fallo crítico al autenticar contra el servicio LDAP
+[2026-10-23 10:15:00] [INFO] Petición HTTP GET /healthcheck OK (200)
+[2026-10-23 10:20:45] [ERROR] Timeout de conexión con la API externa de pagos
