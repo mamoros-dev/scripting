@@ -1,0 +1,60 @@
+{
+  "AWSTemplateFormatVersion": "2010-09-09",
+  "Description": "Ejemplo de definicion de multiples instancias EC2 en AWS",
+  "Resources": {
+    "WebInstance1": {
+      "Type": "AWS::EC2::Instance",
+      "Properties": {
+        "ImageId": "ami-0abcdef1234567890",
+        "InstanceType": "t3.micro",
+        "KeyName": "mi-clave-ssh",
+        "Tags": [
+          {
+            "Key": "Name",
+            "Value": "Servidor-Web-01"
+          },
+          {
+            "Key": "Environment",
+            "Value": "Production"
+          }
+        ]
+      }
+    },
+    "WebInstance2": {
+      "Type": "AWS::EC2::Instance",
+      "Properties": {
+        "ImageId": "ami-0abcdef1234567890",
+        "InstanceType": "t2.micro",
+        "KeyName": "mi-clave-ssh",
+        "Tags": [
+          {
+            "Key": "Name",
+            "Value": "Servidor-Web-02"
+          },
+          {
+            "Key": "Environment",
+            "Value": "Production"
+          }
+        ]
+      }
+    },
+    "WebInstance3": {
+      "Type": "AWS::EC2::Instance",
+      "Properties": {
+        "ImageId": "ami-0abcdef1234567890",
+        "InstanceType": "c1.medium",
+        "KeyName": "mi-clave-ssh",
+        "Tags": [
+          {
+            "Key": "Name",
+            "Value": "Servidor-Web-03"
+          },
+          {
+            "Key": "Environment",
+            "Value": "Production"
+          }
+        ]
+      }
+    }
+  }
+}

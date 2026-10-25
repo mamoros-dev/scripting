@@ -1,0 +1,11 @@
+[ERROR: Conexión fallida] xxxxxxxxxxxxxxxxxxxxxxx
+[INFO] yyyyyyyyyyyyyyyyyyyyyyyy
+[ERROR: Conexión fallida] zzzzzzzzzzzzzzzzzzzzzzz
+[WARNING] zzzzzzzzzzzzzzzzzzzzzzz
+[WARNING] xxxxxxxxxxxxxxxxxxxxxxx
+frase sin nada.
+[INFO] zzzzzzzzzzzzzzzzzzzzzzz
+[INFO] yyyyyyyyyyyyyyyyyyyyyyyy
+[CRITICAL] yyyyyyyyyyyyyyyyyyyyyyyy
+[Error: Conexión fallida] xxxxxxxxxxxxxxxxxxxxxxx
+[WARNING] zzzzzzzzzzzzzzzzzzzzzzz
